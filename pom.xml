@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>io.github.minding2796</groupId>
   <artifactId>KoreanUtils</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0.0</version>
   <name>Archetype - KoreanUtils</name>
   <url>http://maven.apache.org</url>
   <build>
