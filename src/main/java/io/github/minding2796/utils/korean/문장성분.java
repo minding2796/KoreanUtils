@@ -1,4 +1,4 @@
-package org.minding.utils.korean;
+package io.github.minding2796.utils.korean;
 
 @SuppressWarnings("NonAsciiCharacters")
 public enum 문장성분 {

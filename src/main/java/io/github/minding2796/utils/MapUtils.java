@@ -1,4 +1,4 @@
-package org.minding.utils;
+package io.github.minding2796.utils;
 
 import java.util.Map;
 

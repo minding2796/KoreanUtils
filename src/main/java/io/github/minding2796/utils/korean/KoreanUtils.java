@@ -1,8 +1,8 @@
-package org.minding.utils.korean;
+package io.github.minding2796.utils.korean;
 
-import org.minding.utils.ArrayUtils;
-import org.minding.utils.MapUtils;
-import org.minding.utils.Tuple;
+import io.github.minding2796.utils.ArrayUtils;
+import io.github.minding2796.utils.MapUtils;
+import io.github.minding2796.utils.Tuple;
 
 import java.math.BigDecimal;
 import java.util.*;
