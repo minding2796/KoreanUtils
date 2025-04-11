@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="KoreanUtils:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/KoreanUtils_jar</output-path>
+    <root id="archive" name="KoreanUtils.jar">
+      <element id="module-output" name="KoreanUtils" />
+      <element id="module-source" name="KoreanUtils" />
+    </root>
+  </artifact>
+</component>
