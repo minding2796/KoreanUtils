@@ -2,9 +2,9 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>io.github.minding2796</groupId>
-  <artifactId>KoreanUtils</artifactId>
-  <version>1.0.0</version>
-  <name>Archetype - KoreanUtils</name>
+  <artifactId>korean-utils</artifactId>
+  <version>1.0.1</version>
+  <name>KoreanUtils</name>
   <url>http://maven.apache.org</url>
   <build>
     <plugins>
@@ -16,17 +16,14 @@
           <target>16</target>
         </configuration>
       </plugin>
-      <plugin>
-        <groupId>org.sonatype.plugins</groupId>
-        <artifactId>nexus-staging-maven-plugin</artifactId>
-        <version>1.6.7</version>
-        <extensions>true</extensions>
-        <configuration>
-          <serverId>ossrh</serverId>
-          <nexusUrl>https://central.sonatype.com/</nexusUrl>
-          <autoReleaseAfterClose>true</autoReleaseAfterClose>
-        </configuration>
-      </plugin>
     </plugins>
   </build>
+
+  <distributionManagement>
+    <repository>
+      <id>github</id>
+      <name>GitHub OWNER Apache Maven Packages</name>
+      <url>https://maven.pkg.github.com/minding2796/KoreanUtils</url>
+    </repository>
+  </distributionManagement>
 </project>
