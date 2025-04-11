@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>io.github.minding2796</groupId>
   <artifactId>korean-utils</artifactId>
-  <version>1.0.1</version>
+  <version>1.0.2</version>
   <name>KoreanUtils</name>
   <url>http://maven.apache.org</url>
   <build>
@@ -11,6 +11,7 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.14.0</version>
         <configuration>
           <source>16</source>
           <target>16</target>
