@@ -1,7 +1,31 @@
 import com.vanniktech.maven.publish.SonatypeHost
 
 plugins {
-    id("com.vanniktech.maven.publish") version "0.28.0" // maven 배포 플러그인
+    java
+    id("com.vanniktech.maven.publish") version "0.31.0" // maven 배포 플러그인
+}
+
+group = "io.github.minding2796"
+version = "1.0.0"
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(21)
+    }
+}
+
+configurations {
+    compileOnly {
+        extendsFrom(configurations.annotationProcessor.get())
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+tasks.withType<Test> {
+    useJUnitPlatform()
 }
 
 mavenPublishing {
